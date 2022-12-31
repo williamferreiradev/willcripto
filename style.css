@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+body{
+    background-color: var(---bg-color);
+    width: 100%;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: var(---text);
+    transition: all 0.3s ease-in-out;
+}
+
+.header{
+    background-color: var(---bg-color);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10rem;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header .container .navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .container .logo{
+    display: flex;
+    align-items: center;
+}
+.header .container .logo a{
+    color: var(---text);
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.header .container .navbar .list{
+    display: flex;
+    font-weight: 400;
+    gap: 3rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header .container .navbar .list .menu-list a{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: var(---text);
+}
+
+.header .container .navbar .btn-header{
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    gap: 2rem;
+}
+
+
+/* SECTION HERO */
+
+.se-hero{
+    padding: 25rem 0;
+}
+.se-hero .container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.se-hero .content{
+    width: 100%;
+    max-width: 56.4rem;
+}
+
+.se-hero .content h1{
+    width: 100%;
+    font-size: 4.7rem;
+    margin-bottom: 3.5rem;
+}
+
+.se-hero .content p{
+    width: 100%;
+    font-size: 2.3rem;
+    color: var(---text);
+    margin-bottom: 3.7rem;
+}
+
+.se-hero .content .btn-primary{
+    padding: 1.9rem 3.4rem;
+    font-size: 1.4rem;
+}
+
+.se-hero .image{
+    width: 100%;
+    max-width: 47.8rem;
+}
+
+.se-hero .image img{
+    width: 100%;
+    max-width: 47.8rem;
+}
+
+
+
+.all-cards{
+    width: 100%;
+    background-color: var(---card);
+}
+.all-cards .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.all-cards .container .card{
+    padding: 4rem;
+}
+
+.all-cards .container .card img{
+    width: 3rem;
+    margin-bottom: 4rem;
+}
+
+.all-cards .container .relogio{
+    margin-left: 2rem;
+}
+
+
+.all-cards .container .card h3{
+    color: var(---text-constrat);
+    font-size: 1.8rem;
+    width: 100%;
+    max-width: 17rem;
+    margin-bottom: 1.7rem;
+}
+
+.all-cards .container .relogio h3{
+    width: 100%;
+    max-width: 24rem;
+}
+
+.all-cards .container .card p{
+    width: 100%;
+    max-width: 19rem;
+    font-size: 1.4rem;
+    color: var(---paragrafy);
+}
+
+
+
+/* SECTION DE NEGOCIAÇÕES */
+
+.se-negotiate{
+    padding: 8rem 0;
+}
+.se-negotiate .text .container{
+    display: flex;
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    max-width: 50rem;
+    margin-bottom: 7.4rem;
+    font-size: 4.6rem;
+}
+
+.se-negotiate .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.se-negotiate .container .image{
+    width: 100%;
+    max-width: 26rem;
+}
+.se-negotiate .container .image img{
+    width: 1px;
+}
+
+
+.se-negotiate .container .content{
+    width: 100%;
+    max-width: 42rem;
+}
+
+.se-negotiate .container .content .primary-text h3{
+    width: 100%;
+    max-width: 40rem;
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.se-negotiate .container .content .primary-text p{
+    width: 100%;
+    max-width: 40rem;
+    font-size: 1.6rem;
+    color: var(---paragrafy);
+    margin-bottom: 3.2rem;
+}
+
+.se-negotiate .container .content .secundary-text h3{
+    width: 100%;
+    max-width: 35.6rem;
+    font-size: 2.2rem;
+    margin-bottom: 2.4rem;
+}
+
+.se-negotiate .container .content .secundary-text p{
+    width: 100%;
+    max-width: 38.9rem;
+    color: var(---paragrafy);
+    font-size: 1.5rem;
+    margin-bottom: 3.3rem;
+}
+
+.se-negotiate .container .content .btns{
+    width: 100%;
+    max-width: 38rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3.2rem;
+}
+
+.se-negotiate .container .content .btns .btn-primary{
+    padding: 1rem;
+}
+.se-negotiate .container .content .btns .bnt{
+    display: inline-block;
+    color: var(---text);
+    margin-left: 2.5rem;
+    background-color: transparent;
+    border: 1px solid var(---text);
+    padding:0.7rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.se-negotiate .container .content .btns .bnt:hover{
+    background-color: var(---text);
+    color: var(---btn-text);
+}
+
+.se-negotiate .container .content .btns .download .text h4{
+    color: var(---text);
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+.se-negotiate .container .content .btns .download .image-apps{
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.se-negotiate .container .content .btns .download .image-apps .qr{
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
+.all-cripto{
+    width: 100%;
+    padding: 10rem 0;
+}
+
+.all-cripto .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.all-cripto .container .card{
+    padding: 1.6rem;
+    background-color: var(---card-cripto);
+    border-radius: 14px;
+}
+
+.all-cripto .container .card .log-cripto{
+    display: flex;
+    align-items: center;
+}
+
+.all-cripto .container .card .info-cripto{
+    display: flex;
+    flex-direction: column;
+}
+
+.all-cripto .container .card .info-cripto h3{
+    font-size: 1.9rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.all-cripto .container .card .info-cripto p{
+    font-size: 1.2rem;
+    color: var(---paragrafy);
+    margin-left: 1rem;
+}
+
+.all-cripto .container .card .grafic{
+    margin-top: 4rem;
+}
+
+.all-cripto .container .card .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.all-cripto .container .card .price .top{
+    display: flex;
+    align-items: center;
+}
+
+.all-cripto .container .card .price p{
+    color: var(---paragrafy);
+    font-size: 1.3rem;
+}
+
+.all-cripto .container .card .price .top span{
+    color: var(---text-constrat);
+    font-size: 1.3rem;
+}
+
+.footer{
+    padding: 4rem 0;
+    background-color: var(---card);
+}
+
+.footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 17rem;
+}
+
+.footer .container .info a{
+    color: var(---text);
+    font-size: 1.7rem;
+}
+
+.footer .container .creator span{
+    color: var(---text-constrat);
+}
