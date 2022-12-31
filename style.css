@@ -65,11 +65,8 @@ body{
     color: var(---text);
 }
 
-.header .container .navbar .btn-header{
-    display: flex;
-    align-items: center;
+.header .container .navbar .list .btn-secundary{
     margin-left: 5rem;
-    gap: 2rem;
 }
 
 
